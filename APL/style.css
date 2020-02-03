@@ -9,8 +9,12 @@ body, h1, h2, h3, h4, h5, h6, p, ul {
     margin: 0;
     padding: 0;
 }
-.kontainer {
+body {
     height: 100%;
+    width: 100%;
+}
+.kontainer {
+  
 }
 
 .kontainer .top {
@@ -124,8 +128,9 @@ button {
 
 .kontainer .about {
     width: cover;
-    text-align: center;
-    height: 200px;
+    height: 100%;
+    margin: 0 20%;
+    
 
 }
 
@@ -136,25 +141,23 @@ button {
     line-height: 61px;
     color: #787878;
     padding: 20px;
+    text-align: center;
 
 
 }
 
 .kontainer .about p {
-    width: 500px;
+    width: 100%;
     font-style: normal;
     font-weight: normal;
     font-size: 20px;
     line-height: 25px;
     color: #c4c4c4;
-    margin: auto
-}
-
-.kontainer .about {
-    height: 100%;
-    margin-bottom: 50px;
+    margin: 0px;
+    
 
 }
+
 
 /* Brands */
 
@@ -177,19 +180,44 @@ button {
 
 
 /* Images */
+.images {
+    width: 100%;
+    padding: 0px;
+    
+}
+
 .container {
     width: 100%;
-    height: 50%;
     padding: 0px;
-}
 
+}
+.carousel-indicator{
+    position: fixed;
+    box-shadow: none;
+}
 .container .item {
     height: 500px;
+    width: 100%;
 }
 
+.right {
+ 
+}
 
+.right:hover {
+    background: none;
+}
+
+.left {
+    
+}
 
 /* Event */
+
+.event {
+    height: 100%;
+    margin: 0 20%;
+}
 
 .event h1 {
     font-size: 50px;
@@ -198,24 +226,24 @@ button {
     padding: 20px;
     text-align: center;
     margin-top: 50px;
+    
 }
 
 .event .eventp {
     text-align: center;
-    width: 500px;
     font-style: normal;
     font-weight: normal;
     font-size: 20px;
     line-height: 25px;
     color: #c4c4c4;
-    margin: auto
+    text-align: left;
 }
 
 /* Collabs P */
 
 /* Event */
 
-.collaberations h1 {
+.collaborations h1 {
     font-size: 50px;
     line-height: 61px;
     color: #787878;
@@ -224,7 +252,7 @@ button {
     margin-top: 50px;
 }
 
-.collaberations .collaberationsp {
+.collaborations .collaborationsp {
     text-align: center;
     width: 500px;
     font-style: normal;
@@ -241,3 +269,5 @@ button {
     height: 200px;
     margin-top: 70px;
 }
+
+ @media(min-width)
