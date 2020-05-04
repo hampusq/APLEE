@@ -1,174 +1,363 @@
-<!DOCTYPE html>
-<html lang="sv">
-<head>
-    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Portfolio</title>
-    <!-- Latest compiled and minified CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <link rel="stylesheet" href="https://cdn.rawgit.com/mfd/09b70eb47474836f25a21660282ce0fd/raw/e06a670afcb2b861ed2ac4a1ef752d062ef6b46b/Gilroy.css">
+        <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="icon" href="./img/logo-2fixed.png">
+        <title>Portfolio</title>
+        <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 
-    <!-- jQuery library -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-
-    <!-- Latest compiled JavaScript -->
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-
-    <!-- Bootstrap Responsive -->
-    <link rel="stylesheet" href="css/bootstrap.css">
-    <link rel="stylesheet" href="css/bootstrap-responsive.css">
-    <link rel="stylesheet" href="/APLEE/APL/style.css">
+        <!-- jQuery library -->
 
 
+        <!-- Latest compiled JavaScript -->
+        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous">
+        </script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+        </script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
+        </script>
 
-    <script>
-        $(document).ready(function() {
-            // Add smooth scrolling to all links
-            $(".scroll").on('click', function(event) {
+        <!-- Bootstrap Responsive -->
 
-                // Make sure this.hash has a value before overriding default behavior
-                if (this.hash !== "") {
-                    // Prevent default anchor click behavior
-                    event.preventDefault();
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js">
+        <link rel="stylesheet" href="menu.css">
+        <link rel="stylesheet" href="style.css">
 
-                    // Store hash
-                    var hash = this.hash;
 
-                    // Using jQuery's animate() method to add smooth page scroll
-                    // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
-                    $('html, body').animate({
-                        scrollTop: $(hash).offset().top
-                    }, 800, function() {
 
-                        // Add hash (#) to URL when done scrolling (default click behavior)
-                        window.location.hash = hash;
-                    });
-                } // End if
-            });
-        });
-    </script>
-</head>
-<body>
-    <div class="kontainer">
-        <header>
-            <!-- TOP med video -->
-            <div class="top">
-                <a href="www.google.se"><img id="toplogo" src="./img/logo-2.png" alt="ETA logo"></a>
+
+
+        <script>
+
+
+
+        </script>
+    </head>
+    <body>
+        <div class="kontainer">
+            <header>
+
+                <!-- TOP med video -->
+                <div class="top">
+                    <!-- Video -->
+
+                    <div class="overlay">
+
+                    </div>
+
+                    <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
+                        <source src="./img/whtevideo.mp4" type="video/mp4">
+                    </video>
+                    <div class="topnav">
+                        <div class="navbar">
+                            <a href="#about">ABOUT US</a>
+                            <a href="#wave1">OUR BRANDS</a>
+                            <a href="#event">EVENTS</a>
+                            <a href="#about">COLLABORATIONS</a>
+                        </div>
+                    </div>
+                    <div class="container h-100">
+
+                        <a href="#">
+                            <img id="toplogo" src="./img/logo-2fixed.png" alt="ETA logo"></a>
+                        <div class="d-flex h-100 text-center align-items-center">
+                            <div class="w-100 text-white">
+
+                            </div>
+                        </div>
+
+                    </div>
+
+
+                </div>
+
+                <div class="sticky">
+
+
+
+                </div>
+            </header>
+
+            <!-- About us -->
+            <div class="about center" id="about">
+                <h1 class="rubrik">About us</h1>
+                <p class="citat">"Who said marketing isn't art?"</p>
+                <hr />
+                <p class="text">European Trading Agency strive to becoming the largest trading platform for the retail
+                    industry with over 12 years experience in design, marketing & retail. The main focus is to offer
+                    suppliers, startups, retailers and selected entrepreneurs help and guidance in connecting with each
+                    other. Finding the right tools for expansion and export in different markets around Europe.<br>
+                    <br>
+                    We can also help you with branding and marketing that fits the European market and your target
+                    customers. Together, we thoroughly go through your progress so far and give you professional advice on
+                    marketing strategies and improvements, based on your results. See this as mandatory preparations for the
+                    upcoming stages of your development and expansion in your market areas.<br>
+                    <br>
+                    Together with you - we create a deeper development plan for the upcoming months & years to come, by
+                    connecting your business with the right network(b2b) and setting the future structure through the right
+                    suppliers/products/services you need. Coaching the business team individually to reach next milestone.<br>
+                    <br>
+                    One of the biggest success indicators are expanding through collaborations with influencers, models,
+                    role models or companies with the same target interest and customer nisch as yourself. Our platform aims
+                    to give you the right tools for creating a collaboration that leads your brand to success.</p>
             </div>
-            <div class="sticky">
-                <div class="dropdown">
-                    <button class="dropbtn"><img src="./img/menypng-white.png" alt="menuicon"></button>
-                    <div class="dropdown-content">
-                        <a class="scroll" href="#about">About us</a>
-                        <a class="scroll" href="#brands">Brands</a>
-                        <a class="scroll" href="#event">Events</a>
-                        <a class="scroll" href="#">Collaberations</a>
-                        <a class="scroll" href="#">Partners</a>
-                        <a class="scroll" href="#">Inspiration</a>
+
+            <!-- Brands -->
+            <!-- <div class="wave1" id="wave1">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+                    <path fill="#174062" fill-opacity="1" d="M0,96L40,122.7C80,149,160,203,240,224C320,245,400,235,480,197.3C560,160,640,96,720,74.7C800,53,880,75,960,101.3C1040,128,1120,160,1200,149.3C1280,139,1360,85,1400,58.7L1440,32L1440,320L1400,320C1360,320,1280,320,1200,320C1120,320,1040,320,960,320C880,320,800,320,720,320C640,320,560,320,480,320C400,320,320,320,240,320C160,320,80,320,40,320L0,320Z">
+                    </path>
+                </svg>
+            </div> -->
+            <div class="brandsoutside">
+                <div class="brandinside">
+                    <div class="grid-container">
+                        <div class="brands">
+
+                            <p>OUR BRANDS</p>
+                            
+                            <div class=" logos">
+                            <a href="http://peekapoo.se/" target="_blank"><img class="grid-item" id="peek" src="./img/white_logo_transparent.png" alt="peekabo"></a>
+                            <a href="https://www.whtesthlm.com/" target="_blank"><img class="grid-item" src="./img/8EFF96D9.png" id="whte" alt="whtesthlm"></a>
+                            <a href="http://preemiecme.com/" target="_blank"><img class="grid-item" id="preemie" src="./img/preemie.png" alt="preemie"></a>
+                        </div>
                     </div>
                 </div>
             </div>
-        </header>
-
-        <!-- About us -->
-        <div class="about" id="about">
-            <h2>About us</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut voluptas fugit nisi ipsum recusandae qui velit sint reprehenderit rerum dolores, perspiciatis maxime cum incidunt est temporibus laudantium iusto libero ildwadlo!</p>
         </div>
 
-        <!-- Brands -->
-        <div class="brands" id="brands">
-            <h1 class="display-1">Brands</h1>
-            <div class="logos">
-                <img id="whtebrand" src="/APLEE/APL/img/whte-sthlm-logo.svg" alt="">
+        <!-- <div class="wave2">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+                    <path fill="#174062" fill-opacity="1" d="M0,256L48,229.3C96,203,192,149,288,133.3C384,117,480,139,576,165.3C672,192,768,224,864,234.7C960,245,1056,235,1152,218.7C1248,203,1344,181,1392,170.7L1440,160L1440,0L1392,0C1344,0,1248,0,1152,0C1056,0,960,0,864,0C768,0,672,0,576,0C480,0,384,0,288,0C192,0,96,0,48,0L0,0Z">
+                    </path>
+                </svg>
+            </div> -->
+        <div class="sticky">
+        </div>
+
+        <div class="event center">
+            <h1 class="rubrik" id="event">Events</h1>
+
+            <p class="citat">"Who said marketing isn't art?"</p>
+            <hr />
+
+            <p class="text">
+                European Trading Agency loves to plan, develop and create events that will boost your brands and business! Over the years, we have created eye-catching & business-boosting events (b2b & b2c) all over Europe, starting from Spain, Paris & Latvia to end up in our popular capital city (where everything started) in Stockholm, Sweden. <br>
+                <br>
+                Creating an event in the 20’s is not hard at all. With all the kinds of tool and technology we have today, it’s easy to build your dreams physically. But the key is not to build an event and stop there, the key is to build an event that captures your message without you saying it out loud. And that is our expertise. No matter how colorful it is:
+            </p>
+        </div>
+        <div class="float">
+
+            <div class="section clearfix">
+                <img class="left" src="./img/events/paris.jpg" alt="">
+                <h2>Paris Texworld 2017</h2>
+
+                <p class="text-left text">After attending &amp; participating in the Paris Texworld 2017 show, founder of European
+                    Trading Agency – Diana Svensson, was announced as the Star of Texworld after building up
+                    a record long list of network and suppliers to work with. This was just right after she was
+                    praised for her record of having over 40 meetings in just 48 hours!
+                    <br>
+                    <br>
+                    Paris Texworld later wrote: “Diana Svensson is an example of entrepreneurship and get-it-
+                    done attitude. Along with other BBB participants, her experience at the BBB-Texworld event
+                    shows how matchmaking and internationalisation can be an added value to European
+                    SMEs.”</p>
+            </div>
+            <!-- Div för lördags inlägg -->
+            <div class="section clearfix">
+                <img class="right" src="./img/events/clas_fixed.JPG" alt="">
+                <h2>Clas Ohlson 100-year anniversary</h2>
+                <p class="text-left text">As a Nordic Marketing Executive, Diana has been working with many different world leading
+                    brands and customers around the globe. One of them has been the Swedish retail chain Clas
+                    Ohlson, where the brand Snazaroo is currently being sold. Snazaroo wanted to up their sales
+                    &amp; participate in a colorful way – in a way that no one could miss! This resulted in a color
+                    explosion on 3x3 meters in front of the flagship store in Insjön, Sweden. Professional Face
+                    painters were hired in, the tent got covered in branded balloons and a campaign
+                    competition on Instagram started for all the parents that visited the event. This led to more
+                    online and in-store sales, greater visibility on social media and a great way to communicate
+                    about the news the brand just launched.</p>
+            </div>
+            <!-- Div för söndags inlägg -->
+            <div class="section clearfix">
+                <img class="left" src="./img/events/affish.jpg" alt="" id="float3">
+                <h2>Designer Popup at The Lobby Stockholm</h2>
+                <p class="text-left text">December 2019, the iconic brands of European Trading Agency; Peek-A-Poo &amp; WHTE
+                    STHLM, premiered with their first popup store ever at The Lobby Stockholm on the popular
+                    street at Regeringsgatan 61. The designer popup was going strong until middle of January
+                    where WHTE STHLM premiered their very first Fashion show, to show the audience the edgy
+                    (and limited) ICEBAR Collection that launched just a week after the show.</p>
             </div>
         </div>
 
+        <!--  <div class="img-width">
+            <div>
+                <p class="imgtext"> <img class="left" src="img/bildspel/8.jpg" alt=""> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos possimus beatae quisquam obcaecati? Sunt cumque modi consequatur fugit beatae, eligendi odit veniam dignissimos, et facilis officiis magni aspernatur. Rem, dolore!</p>
+            </div>
+        </div>
+        
+            <div class="img-width">
+                <div>
+                    <img class="right" src="img/bildspel/8.jpg" alt="">
+                    <p class="imgtext text-right"> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusantium natus odit iusto, officia quam odio nemo, debitis repellat ab nobis eaque, autem id voluptatum necessitatibus esse non tempora doloremque perspiciatis.</p>
+                </div>
+            </div>
 
-        <div class="images split">
-            <div class="container">
-                <div id="myCarousel" class="carousel slide" data-ride="carousel">
-                    <!-- Indicators -->
-                    <ol class="carousel-indicators">
-                        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-                        <li data-target="#myCarousel" data-slide-to="1"></li>
-                        <li data-target="#myCarousel" data-slide-to="2"></li>
-                    </ol>
-                    <!-- Wrapper for slides -->
-                    <div class="carousel-inner">
-                        <!-- bild 1 -->
-                        <div class="item active">
-                            <img src="./img/bildspel/14.jpg" alt="Bild 1" style="width: 100%;">
-                        </div>
-                        <!-- Bild 2 -->
-                        <div class="item">
-                            <img src="./img/bildspel/5.JPG" alt="Bild 2" style="width: 100%;">
-                        </div>
+            <div class="img-width">
+                <div>
+                    <p class="imgtext"><img class="left" src="img/bildspel/8.jpg" alt=""> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sunt perferendis cumque dolorem eligendi reiciendis aspernatur odit odio fugiat, illum magni, optio totam dolorum eum? Totam nulla temporibus a cupiditate sint.</p>
+                </div>
+            </div> -->
 
-
-                        <!-- Bild 3 -->
-                        <div class="item">
-                            <img src="./img/bildspel/12.JPG" alt="Bild 3" style="width: 100%;">
-                        </div>
-                    </div>
-                    <!-- Left and right controls -->
-                    <a class="left carousel-control" href="#myCarousel" data-slide="prev">
-                        <span class="glyphicon glyphicon-chevron-left"></span>
-                        <span class="sr-only">Previous</span>
-                    </a>
-                    <a class="right carousel-control" href="#myCarousel" data-slide="next">
-                        <span class="glyphicon glyphicon-chevron-right"></span>
-                        <span class="sr-only">Next</span>
-                    </a>
+        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="carousel-item active" data-interval="5000">
+                    <img class="d-block w-100" src="./img/bildspel/bildspel2/1.jpg" alt="First slide">
+                </div>
+                <div class="carousel-item" data-interval="5000">
+                    <img class="d-block w-100" src="./img/bildspel/bildspel2/2.png" alt="Second slide">
+                </div>
+                <div class="carousel-item" data-interval="5000">
+                    <img class="d-block w-100" src="./img/bildspel/bildspel2/3.jpg" alt="Third slide">
+                </div>
+                <div class="carousel-item" data-interval="5000">
+                    <img class="d-block w-100" src="./img/bildspel/bildspel2/4.jpeg" alt="Third slide">
                 </div>
             </div>
         </div>
-        <div class="event">
-            <h1 class="display-1" id="event">Events</h1>
-            <p class="eventp">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut voluptas fugit nisi ipsum recusandae qui velit sint reprehenderit rerum dolores, perspiciatis maxime cum incidunt est temporibus laudantium iusto libero ildwadlo!
-            </p>
+        <div class="whiteoutside">
+            <div class="white">
+                <div class="grid-container">
+                    <div class="brands">
+
+                        <p>OUR PARTNERS</p>
+                        <p>Our team at European Trading Agency is always open for new partnerships, sponsors or
+                            collaborations! If you feel that we would be a great match, finish each other’s sentences or
+                            could create magic together – please let us know! All you have to do is to fill in the form
+                            below and check out our current partners while awaiting a 24-hour reply from us!</p>
+                        <div class="logos">
+                            <a href="http://peekapoo.se/" target="_blank"><img class="grid-item smaller-logo" src="./img/partners/studiobee.png" alt="peekabo"></a>
+
+                            <a href="https://www.whtesthlm.com/" target="_blank"><img class="grid-item smaller-logo" src="./img/adafine.png" alt="whtesthlm"></a>
+
+                            <a href="http://preemiecme.com/" target="_blank"><img class="grid-item smaller-logo" src="./img/partners/arkessen.png" alt="preemie"></a>
+
+                            <a href="http://preemiecme.com/" target="_blank"><img class="grid-item smaller-logo" src="./img/partners/heartofstockholm.png" alt="preemie"></a>
+
+                            <a href="http://preemiecme.com/" target="_blank"><img class="grid-item smaller-logo" src="./img/partners/fotodela.png" alt="preemie"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-        <div class="spacer">
-        </div>
-        <div class="collaborations">
-            <!-- <h1 class="display-1" id="collaberations">Collaborations</h1> -->
-            <p class="collaborationsp">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut voluptas fugit nisi ipsum recusandae qui velit sint reprehenderit rerum dolores, perspiciatis maxime cum incidunt est temporibus laudantium iusto libero ildwadlo!
-            </p>
+
         </div>
 
 
 
 
 
-        <!-- Instagram Feed -->
 
-        <!-- <div class="instagram">
-            <script src="https://apps.elfsight.com/p/platform.js" defer></script>
-            <div class="elfsight-app-d00a5cdb-efe7-40bf-9907-a6be32306a38"></div>
+        <!-- <div class="row">
+            <div class="column">
+                <img src="img/bildspel/1.jpg" alt="">
+                <img src="img/bildspel/1.jpg" alt="">
+            </div>
+            
+            <div class="column">
+                <img src="img/bildspel/1.jpg" alt="">
+                <img src="img/bildspel/1.jpg" alt="">
+            </div>
+            <div class="column">
+                <img src="img/bildspel/1.jpg" alt="">
+                <img src="img/bildspel/1.jpg" alt="">
+
+            </div>
+            <div class="column">
+                <img src="img/bildspel/1.jpg" alt="">
+                <img src="img/bildspel/1.jpg" alt="">
+            </div>
         </div> -->
 
+        <!-- <div class="eventinfo">
+            <img src="img/bildspel/1v2.png" alt="">
+            <img src="img/bildspel/1v2.png" alt="">
+            <img src="img/bildspel/1v2.png" alt="">
+        </div> -->
+
+
+
+
+
+
         <footer>
+
             <div class="footer">
+                <div class="block">
+                    <div class="blockcontent">
+                        <h4>Info</h4>
+                        <p>European Trading Agency AB<br>
+                            <a href="mailto:info@etaab.com">info@etaab.com</a> <br>
+                            559233-1960
+                        </p>
+                        <p></p>
+
+
+
+                    </div>
+                    <div class="blockcontent">
+                        <h4>Visit Us</h4>
+                        <p>
+                            S:T GÖRANSGATAN 159 <br>
+                            112 17 Stockholm, Sweden<br>
+                            <div class="mapouter">
+                                <div class="gmap_canvas"><iframe width="400" height="220" id="gmap_canvas" src="https://maps.google.com/maps?q=sankt%20g%C3%B6rangatan%20159&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://www.enable-javascript.net/blog/divi-discount/">elegant themes 2 memberships</a></div>
+                                <style>
+                                    .mapouter {
+                                        position: relative;
+                                        text-align: right;
+                                        height: 220px;
+                                        width: 400px;
+                                    }
+
+                                    .gmap_canvas {
+                                        overflow: hidden;
+                                        background: none !important;
+                                        height: 220px;
+                                        width: 400px;
+                                    }
+                                </style>
+                            </div>
+                    </div>
+                    <div class="blockcontent">
+                        <h4>SNI</h4>
+                        <p>47714, 47715, 47912, 47722, 47919</p>
+                    </div>
+
+                    <!-- whtesthlm peek.a.poo officialpeekapoo -->
+                    <div class="blockcontent social">
+                        <h4>Contact Us</h4>
+
+                        <p>Diana Svensson</p>
+                        <a target="_blank" href="https://www.linkedin.com/in/dianasvensson/"><img src="./img/social/linkedin.svg" alt=""></a>
+                        <a target="_blank" href="https://www.instagram.com/nordicentrepreneur"><img src="./img/social/instagram.svg" alt=""></a>
+                        <a target="_blank" href="https://www.facebook.com/profile.php?id=1127477920"><img src="./img/social/facebook.svg" alt=""></a>
+                        <a target="_blank" href="http://snapchat.com/add/nordicbossbabe"><img src="./img/social/snapchat.svg" alt=""></a>
+                    </div>
+                </div>
             </div>
         </footer>
         <script>
-            window.onscroll = function() {
-                myFunction()
-            };
-
-            var navbar = document.getElementById("navbar");
-            var sticky = navbar.offsetTop;
-
-            function myFunction() {
-                if (window.pageYOffset >= sticky) {
-                    navbar.classList.add("sticky")
-                } else {
-                    navbar.classList.remove("sticky");
-                }
-            }
+            console.log("Created by: Lucas, Olle & Hampus");
         </script>
-    </div>
-</body>
-</html>
+    </body>
+    </html>
